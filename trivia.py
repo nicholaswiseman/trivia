@@ -1,4 +1,5 @@
 import random
+import os
 
 def get_qs():
 	while 1:
@@ -29,6 +30,7 @@ def ask_a_q():
 
 	
 if __name__ == '__main__':
+	os.system('cls')
 	print('Hello! Welcome to...')
 	print(' _______  ______    ___   __   __  ___   _______') 
 	print('|       ||    _ |  |   | |  | |  ||   | |   _   |')
